@@ -1,4 +1,4 @@
-#Javascript quiz (Basic Level - 1)
+# Javascript quiz (Basic Level - 1)
 
 What is JavaScript?
 JavaScript is a dynamic computer programming language where the interpreter assigns variables a type at runtime based on the variable's value at that time. It is lightweight and most commonly used as a part of web pages,
@@ -38,7 +38,7 @@ null
 What is DOM?
 DOM stands for Document Object Model. It is a programming interface that allows us to create, change, or remove elements from the document.
 
-#Average of array nums in Javascript
+# Average of array nums in Javascript
 
 const arr = [1, 2, 3, 4, 5];
 var sum = 0;
@@ -48,7 +48,7 @@ sum += number;
 var average = sum / arr.length;
 console.log(average);
 
-#Swap two numbers by reference
+# Swap two numbers by reference
 
 let myNum={
 num1:5;
@@ -61,7 +61,7 @@ num2=var;
 }
 swap(myNum.num1,myNum.num2);
 
-#Print the fibonacci sequence
+# Print the fibonacci sequence
 
 const number = parseInt(prompt('Enter the number of terms: '));
 let n1 = 0, n2 = 1, nextTerm;
@@ -75,7 +75,7 @@ n1 = n2;
 n2 = nextTerm;
 }
 
-#Sort an array by both ascending and descending order
+# Sort an array by both ascending and descending order
 
 const arr = [56 ,77,4,6];
 arr.sort();
